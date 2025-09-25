@@ -1,0 +1,69 @@
+.primary-content, body.left-sidebar #theme-content .row .primary-content {
+    max-width: 70%;
+    flex: 0 1 70%;
+}
+.primary-content .news-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+.secondary-sidebar {
+    flex: 0 1 30%;
+    margin-left: 20px;
+}
+
+.primary-content .news-list-wrap article {
+    flex: 0 1 50% !important;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    display: flex;
+}
+figure.post-thumb-wrap {
+    height:300px !important;
+}
+.top-ticker-news .slick-prev,
+.top-ticker-news .slick-next {
+    display: none !important;
+}
+
+img {
+    height: 100% !important;
+}
+.search_close_btn, .search_close_btn {
+    display: none;
+}
+
+.search_close_btn i
+{
+    color: #fff;
+    z-index: 99999;
+    background-color: #087918;
+    padding: 10px 15px 9px;
+    border-radius: 2px;
+    display: block;
+    font-size: 0.86rem;
+}
+
+.search_close_btn {
+    position: absolute;
+    right: 20px;
+    /* top: 20px; */
+    top:-90px;
+    z-index: 2;
+}
+
+.search-form-wrap form label {
+    width: 100%;
+    margin-right: 10px;
+}
+.search-form-wrap form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex
+;
+}
+.search-form-wrap .search-field {
+    width: 100%;
+    height: 46px;
+}
+
